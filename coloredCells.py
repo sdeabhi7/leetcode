@@ -12,6 +12,7 @@ Example 1:
 Input: n = 1
 Output: 1
 Explanation: After 1 minute, there is only 1 blue cell, so we return 1.
+
 Example 2:
 
 Input: n = 2

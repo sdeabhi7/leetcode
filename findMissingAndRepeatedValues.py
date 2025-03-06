@@ -8,6 +8,7 @@ Example 1:
 Input: grid = [[1,3],[2,2]]
 Output: [2,4]
 Explanation: Number 2 is repeated and number 4 is missing so the answer is [2,4].
+
 Example 2:
 
 Input: grid = [[9,1,7],[8,9,2],[3,4,6]]

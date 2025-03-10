@@ -79,3 +79,22 @@ def countOfSubstrings(word, k):
         return result    
         
 print(countOfSubstrings('ieaouqqieaouqq', 1))
+
+
+
+
+# def countOfSubstrings(word, k):
+#     vowel = 'aieou'
+#     consonant = 'bcdfghjklmnpqrstvwxyz'
+#     total = list(word)
+#     value = 0
+#     temp = 5 + k
+#     for i in range(len(total)):
+#         word_temp = word[i:temp+i]
+#         vowel_count = sum(1 for i in word_temp if i in vowel)
+#         consonant_count = sum(1 for i in word_temp if i in consonant)
+#         if vowel_count == 5 and consonant_count == k:
+#             value += 1
+#     return value
+        
+# print(countOfSubstrings('aeioqq', 1))

@@ -31,6 +31,8 @@ def numberOfSubstrings(s):
         substrs += 1 + min(last_pos)
     return substrs
 
+print(numberOfSubstrings('abcabc'))
+
 # def numberOfSubstrings(s):
 #     temp = 0
 #     for i in range(len(s)-2):

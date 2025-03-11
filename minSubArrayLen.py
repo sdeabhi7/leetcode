@@ -51,6 +51,6 @@ print(minSubArrayLen(7, [2,3,1,2,4,3]))
 #     else:
 #         return 0
 
-# print(minSubArrayLen(15, [5,1,3,5,10,7,4,9,2,8]))
+# print(minSubArrayLen(7, [2,3,1,2,4,3]))
 
 

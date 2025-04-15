@@ -30,18 +30,13 @@ Constraints:
 
 def minimumOperations(nums):
     if len(nums) == len(set(nums)):
-        return 0
+            return 0
     else:
-        temp = 0
-        k = 3
+        value = 0
         for i in range(len(nums)):
-            del nums[0:k]
-            temp += 1
-            if len(nums) == len(set(nums)):
-                return temp
-            elif len(nums) >= 3:
-                k = 3
-            else:
-                k = len(nums)
-                
+            del nums[0:3]
+            value += 1
+            if len(set(nums)) == len(nums):
+                return value
+            
 print(minimumOperations([3,7,12,12,3,14,1,1]))

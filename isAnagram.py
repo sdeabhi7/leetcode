@@ -17,4 +17,4 @@ s and t consist of lowercase English letters.
 def isAnagram(s, t):
     return sorted(s) == sorted(t)
 
-print(isAnagram('anagram', 'nagaram'))
+print(isAnagram('anagram', 'nagaram '))

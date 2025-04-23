@@ -55,4 +55,4 @@ print(countSubarrays([2,1,4,3,5], 10))
 #                 value += 1
 #             else:
 #                 break
-#     return valu
+#     return value

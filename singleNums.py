@@ -23,10 +23,13 @@ Each integer in nums will appear twice, only two integers will appear once.
 '''
 
 def singleNumber(nums):
-    temp = []
-    for i in nums:
-        if nums.count(i) == 1:
-            temp.append(i)
-    return temp
+    return [i for i in nums if nums.count(i) == 1]
 
 print(singleNumber([1,2,1,3,2,5]))
+
+# def singleNumber(nums):
+    # temp = []
+    # for i in nums:
+    #     if nums.count(i) == 1:
+    #         temp.append(i)
+    # return temp

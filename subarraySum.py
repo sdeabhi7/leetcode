@@ -36,4 +36,4 @@ print(subarraySum([1,1,1], 2))
 #         for j in range(i+1, len(nums)+1):   
 #             if sum(nums[i:j]) == k:
 #                 value += 1
-#     return valu
+#     return value

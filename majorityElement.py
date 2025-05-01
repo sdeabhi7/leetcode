@@ -19,7 +19,20 @@ n == nums.length
 '''
 
 def majorityElement(nums):
-    nums.sort()
-    return nums[int(len(nums)/2)]
-
+    k = 1
+    value = nums[0]
+    for i in range(1, len(nums)):
+        if nums[i] == value:
+            k += 1
+        elif k != 0:
+            k -= 1
+        else:
+            value = nums[i]
+            k = 1
+    return value
+    
 print(majorityElement([3,2,3]))
+
+# def majorityElement(nums):
+#     nums.sort()
+#     return nums[int(len(nums)/2)]

@@ -18,7 +18,7 @@ Example 2:
 Input: s = "abcdd"
 Output: "d"
 Explanation:
-The only letter that appears twice is 'd' so we return 'd'
+The only letter that appears twice is 'd' so we return 'd'.
 
 Constraints:
 2 <= s.length <= 100

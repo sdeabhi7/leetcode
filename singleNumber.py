@@ -1,5 +1,6 @@
 '''
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
 Example 1:
@@ -19,8 +20,15 @@ Constraints:
 -3 * 104 <= nums[i] <= 3 * 104
 Each element in the array appears twice except for one element which appears only once.
 '''
+from collections import Counter
 
 def singleNumber(nums):
-    return [i for i in nums if nums.count(i) == 1][0]
+    value = Counter(nums)
+    for i in nums:
+        if value[i] == 1:
+            return i
 
 print(singleNumber([2,2,1]))
+
+# def singleNumber(nums):
+#     return [i for i in nums if nums.count(i) == 1][0]

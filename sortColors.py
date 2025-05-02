@@ -21,13 +21,19 @@ Follow up: Could you come up with a one-pass algorithm using only constant extra
 '''
 
 def sortColors(nums):
-    for i in range(len(nums)-1):
-        for j in range(i, len(nums)):
-            if nums[i] > nums[j]:
-                nums[i], nums[j] = nums[j], nums[i]
-    return nums
+    value = [0,0,0]
+    for i in nums:
+        value[i] += 1
+    r, w, b = value
+    nums[:r] = [0] * r
+    nums[r:r+w] = [1] * w
+    nums[r+w:] = [2] * b
 
 print(sortColors([2,0,2,1,1,0]))
 
 # def sortColors(nums):
-#    return nums.sort()
+#     for i in range(len(nums)-1):
+#         for j in range(i, len(nums)):
+#             if nums[i] > nums[j]:
+#                 nums[i], nums[j] = nums[j], nums[i]
+#     return nums

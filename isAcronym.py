@@ -28,7 +28,7 @@ Constraints:
 1 <= words.length <= 100
 1 <= words[i].length <= 10
 1 <= s.length <= 100
-words[i] and s consist of lowercase English letters
+words[i] and s consist of lowercase English letters.
 '''
 
 def isAcronym(words, s):

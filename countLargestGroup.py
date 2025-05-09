@@ -15,7 +15,7 @@ There are 4 groups with largest size.
 Example 2:
 Input: n = 2
 Output: 2
-Explanation: There are 2 groups [1], [2] of size 1
+Explanation: There are 2 groups [1], [2] of size 1.
  
 Constraints:
 1 <= n <= 10**4

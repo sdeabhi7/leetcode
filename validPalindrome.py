@@ -22,7 +22,7 @@ Explanation: s is an empty string "" after removing non-alphanumeric characters.
  
 Constraints:
 1 <= s.length <= 2 * 10**5
-s consists only of printable ASCII characters.
+s consists only of printable ASCII characters
 '''
 
 def isPalindrome(s):

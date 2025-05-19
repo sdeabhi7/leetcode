@@ -19,17 +19,15 @@ intervals[i].length == 2
 
 def merge(intervals):
     if not intervals:
-        return [] 
-    intervals.sort(key=lambda x: x[0])
-    merged = [intervals[0]]
-    for current in intervals[1:]:
-        last = merged[-1]
-        if current[0] <= last[1]:  
-            last[1] = max(last[1], current[1])
-            print(f'last - {last}')
-            print(f'merged - {merged}')
+        return []
+    intervals.sort(key=lambda y: y[0])
+    value = [intervals[0]]
+    for i in intervals[1:]:
+        m = value[-1]
+        if m[1] >= i[0]:
+            m[1] = max(m[1], i[1])
         else:
-            merged.append(current)
-    return merged
+            value.append(i)
+    return value 
 
 print(merge([[1,3],[2,6],[8,10],[15,18]]))

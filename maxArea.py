@@ -15,7 +15,7 @@ Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,
 Example 2:
 Input: height = [1,1]
 Output: 1
- 
+
 Constraints:
 n == height.length
 2 <= n <= 10**5
@@ -28,7 +28,7 @@ def maxArea(height):
     r = n - 1
     value = 0
     while l != r:
-        w = abs(l - r)
+        w = r - l
         h = min(height[l], height[r])
         temp = w * h
         value = max(value, temp)

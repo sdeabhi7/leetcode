@@ -1,5 +1,5 @@
 '''
-Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.
+Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead
 
 Example 1:
 Input: temperatures = [73,74,75,71,69,72,76,73]
@@ -23,10 +23,13 @@ def dailyTemperatures(temperatures):
     value = [0] * n
     sa = []
     for i, j in enumerate(temperatures):
+        print(f'stack {sa}')
+        # print(f'value {value}')
         while sa and sa[-1][0] < j:
             sa_j, sa_i = sa.pop()
             value[sa_i] = i - sa_i
         sa.append((j, i))
+        print(f'sa[-1][0] {sa[-1][0]}')
     return value
 
 print(dailyTemperatures([73,74,75,71,69,72,76,73]))

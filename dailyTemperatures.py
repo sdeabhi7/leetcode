@@ -23,13 +23,10 @@ def dailyTemperatures(temperatures):
     value = [0] * n
     sa = []
     for i, j in enumerate(temperatures):
-        print(f'stack {sa}')
-        # print(f'value {value}')
         while sa and sa[-1][0] < j:
             sa_j, sa_i = sa.pop()
             value[sa_i] = i - sa_i
         sa.append((j, i))
-        print(f'sa[-1][0] {sa[-1][0]}')
     return value
 
 print(dailyTemperatures([73,74,75,71,69,72,76,73]))

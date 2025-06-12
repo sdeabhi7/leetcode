@@ -24,7 +24,7 @@ Output: true
 Constraints:
 1 <= s.length <= 5 * 10**4
 t.length == s.length
-s and t consist of any valid ascii character
+s and t consist of any valid ascii character.
 '''
 
 def isIsomorphic(s, t):

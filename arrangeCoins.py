@@ -11,7 +11,7 @@ Explanation: Because the 3rd row is incomplete, we return 2.
 Example 2:
 Input: n = 8
 Output: 3
-Explanation: Because the 4th row is incomplete, we return 3.
+Explanation: Because the 4th row is incomplete, we return 3
  
 Constraints:
 1 <= n <= 2**31 - 1

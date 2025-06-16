@@ -20,7 +20,7 @@ Example 3:
 Input: nums = [1,5,2,10]
 Output: 9
 Explanation:
-The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 = 9
+The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 = 9.
 
 Constraints:
 n == nums.length

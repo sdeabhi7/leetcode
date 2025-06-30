@@ -18,7 +18,7 @@ Output: false
 Explanation: The robot moves left twice. It ends up two "moves" to the left of the origin. We return false because it is not at the origin at the end of its moves.
  
 Constraints:
-1 <= moves.length <= 2 * 104
+1 <= moves.length <= 2 * 10**4
 moves only contains the characters 'U', 'D', 'L' and 'R'.
 '''
 

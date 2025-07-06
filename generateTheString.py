@@ -22,7 +22,7 @@ Constraints:
 '''
 
 def generateTheString(n):
-    value = 'qwertyuiopasdfghjklzxcvbnm' * n
+    value = 'qwertyuiopasdfghjklzxcvbnm'
     if n % 2 == 1:
         return value[0] * n
     else:

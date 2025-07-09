@@ -23,7 +23,7 @@ No three consecutive characters are equal, so return "aabaa".
 Example 3:
 Input: s = "aab"
 Output: "aab"
-Explanation: No three consecutive characters are equal, so return "aab"
+Explanation: No three consecutive characters are equal, so return "aab".
  
 Constraints:
 1 <= s.length <= 10**5

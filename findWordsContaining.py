@@ -24,7 +24,7 @@ Constraints:
 1 <= words.length <= 50
 1 <= words[i].length <= 50
 x is a lowercase English letter.
-words[i] consists only of lowercase English letters
+words[i] consists only of lowercase English letters.
 '''
 
 def findWordsContaining(words, x):

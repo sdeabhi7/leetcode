@@ -22,7 +22,7 @@ The sum of the numbers after index 2 is: 0
 Example 3:
 Input: nums = [2,5]
 Output: -1
-Explanation: There is no valid middleIndex.
+Explanation: There is no valid middleIndex
  
 Constraints:
 1 <= nums.length <= 100

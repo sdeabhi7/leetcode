@@ -19,20 +19,30 @@ s consists of only lowercase English letters.
 
 def reverseStr(s, k):
     value = list(s)
-    h = []
-    t = ''
-    y = ''
-    for i in s:
-        t += i
-        if len(t) == k:
-            h.append(t)
-            t = ''
-    h.append(t)
-    for i in range(0, len(h)):
-        if i % 2 == 0:
-            y += h[i][::-1]
-        else:
-            y += h[i]
-    return y
+    i, j = 0, 0
+    while j < len(s):
+        j += k
+        value[i:j] = value[i:j][::-1]
+        j += k
+        i = j
+    return ''.join(value)
 
 print(reverseStr('abcdefg', 2))
+
+# def reverseStr(s, k):
+#     value = list(s)
+#     h = []
+#     t = ''
+#     y = ''
+#     for i in s:
+#         t += i
+#         if len(t) == k:
+#             h.append(t)
+#             t = ''
+#     h.append(t)
+#     for i in range(0, len(h)):
+#         if i % 2 == 0:
+#             y += h[i][::-1]
+#         else:
+#             y += h[i]
+#     return y

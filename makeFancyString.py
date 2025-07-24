@@ -31,15 +31,14 @@ s consists only of lowercase English letters.
 '''
 
 def makeFancyString(s):
-    value = []
+    word = []
     for i in s:
-        if len(value) < 2:
-            value.append(i)
+        if len(word) < 2:
+            word.append(i)
+        elif word[-1] == word[-2] == i:
+            pass
         else:
-            if value[-1] == i and value[-2] == i:
-                pass
-            else:
-                value.append(i)
-    return ''.join(value)
+            word.append(i)
+    return ''.join(word)
 
 print(makeFancyString('leeetcode'))

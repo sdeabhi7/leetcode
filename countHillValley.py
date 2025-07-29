@@ -19,7 +19,7 @@ There are 3 hills and valleys so we return 3.
 Example 2:
 Input: nums = [6,6,5,5,4,1]
 Output: 0
-Explanation: At index 0: There is no non-equal neighbor of 6 on the left, so index 0 is neither a hill nor a valley.
+Explanation: At index 0: There is no non-equal neighbor of 6 on the left, so index 0 is neither a hill nor a valley
 At index 1: There is no non-equal neighbor of 6 on the left, so index 1 is neither a hill nor a valley.
 At index 2: The closest non-equal neighbors of 5 are 6 and 4. Since 5 < 6 and 5 > 4, index 2 is neither a hill nor a valley.
 At index 3: The closest non-equal neighbors of 5 are 6 and 4. Since 5 < 6 and 5 > 4, index 3 is neither a hill nor a valley.

@@ -34,5 +34,4 @@ def majorityElement(nums):
 print(majorityElement([3,2,3]))
 
 # def majorityElement(nums):
-#     nums.sort()
-#     return nums[int(len(nums)/2)]
+#     return sorted(nums)[int(len(nums)/2)]

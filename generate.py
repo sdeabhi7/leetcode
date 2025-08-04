@@ -15,7 +15,6 @@ Constraints:
 1 <= numRows <= 30
 '''
 
-
 def generate(numRows):
     value = []
     for i in range(numRows):

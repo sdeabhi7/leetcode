@@ -11,7 +11,7 @@ Example 2:
 Input: n = 10
 Output: false
  
-Constraints:
+Constraints
 1 <= n <= 10**9
 '''
 

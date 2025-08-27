@@ -20,6 +20,6 @@ All the characters of jewels are unique.
 '''
 
 def numJewelsInStones(jewels, stones):
-    return sum(1 for i in stones if i in jewels)
+    return sum(1 for i in stones if i in set(jewels))
 
 print(numJewelsInStones('aA', 'aAAbbbb'))

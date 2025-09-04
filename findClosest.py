@@ -44,11 +44,16 @@ Constraints:
 def findClosest(x, y, z):
     p1 = abs(x-z)
     p2 = abs(y-z)
-    if p1 < p2:
-        return 1
-    elif p2 < p1:
-        return 2
-    else:
-        return 0
+    return 1 if p1 < p2 else 2 if p2 < p1 else 0
     
 print(findClosest(2, 7, 4))
+
+# def findClosest(x, y, z):
+#     p1 = abs(x-z)
+#     p2 = abs(y-z)
+#     if p1 < p2:
+#         return 1
+#     elif p2 < p1:
+#         return 2
+#     else:
+#         return 0

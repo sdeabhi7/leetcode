@@ -35,6 +35,6 @@ def sumZero(n):
                 if len(y) == n and sum(y) == 0:
                     return y
     else:
-        return [0]
+        return [0
 
 print(sumZero(5))

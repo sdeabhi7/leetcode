@@ -8,7 +8,7 @@ Explanation: These arrays also are accepted [-5,-1,1,2,3] , [-3,-1,2,-2,4].
 
 Example 2:
 Input: n = 3
-Output: [-1,0,1
+Output: [-1,0,1]
 
 Example 3:
 Input: n = 1

@@ -12,7 +12,7 @@ Output: [-1,0,1]
 
 Example 3:
 Input: n = 1
-Output: [0
+Output: [0]
  
 Constraints:
 1 <= n <= 1000

@@ -25,7 +25,7 @@ def isPalindrome(x):
 
 print(isPalindrome(121))
 
-# def isPalindrome(x):
+# def isPalindrome(x)
 #     if x >= 0:
 #         t = str(x)[::-1]
 #         return x == int(t)

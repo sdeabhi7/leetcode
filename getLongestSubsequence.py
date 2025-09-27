@@ -34,7 +34,7 @@ words consists of distinct strings.
 words[i] consists of lowercase English letters.
 '''
 
-def getLongestSubsequence(words, groups)
+def getLongestSubsequence(words, groups):
     value = [words[0]]
     t = groups[0]
     for i in range(1, len(words)):

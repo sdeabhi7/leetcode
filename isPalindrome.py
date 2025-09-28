@@ -17,7 +17,7 @@ Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
  
 Constraints:
--231 <= x <= 231 - 1
+-2**31 <= x <= 2**31 - 1
 '''
 
 def isPalindrome(x):
@@ -25,7 +25,7 @@ def isPalindrome(x):
 
 print(isPalindrome(121))
 
-# def isPalindrome(x):
+# def isPalindrome(x):	
 #     if x >= 0:
 #         t = str(x)[::-1]
 #         return x == int(t)

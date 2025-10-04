@@ -7,7 +7,7 @@ Output: 5
 Explanation: You can form a triangle with three side lengths: 1, 2, and 2.
 
 Example 2:
-Input: nums = [1,2,1,10]
+Input: nums = [1,2,1,10
 Output: 0
 Explanation: You cannot use the side lengths 1, 1, and 2 to form a triangle.
 You cannot use the side lengths 1, 1, and 10 to form a triangle.

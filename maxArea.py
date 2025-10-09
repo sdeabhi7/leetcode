@@ -30,12 +30,11 @@ def maxArea(height):
     while l != r:
         w = r - l
         h = min(height[l], height[r])
-        temp = w * h
-        value = max(value, temp)
-        if height[l] >= height[r]:
-            r -= 1
-        else:
+        value = max(value, w * h)
+        if height[l] <= height[r]:
             l += 1
+        else:
+            r -= 1
     return value
 
 print(maxArea([1,8,6,2,5,4,8,3,7]))

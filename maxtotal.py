@@ -33,3 +33,10 @@ def maxtotal(prices):
     return sum(prices[i+1] - prices[i] for i in range(len(prices)-1) if prices[i] < prices[i+1])
 
 print(maxtotal([7,1,5,3,6,4]))
+
+# def maxtotal(prices):
+#     profit = 0
+#     for i in range(len(prices)-1):
+#         if prices[i+1] > prices[i]:
+#             profit += prices[i+1] - prices[i]
+#     return profit

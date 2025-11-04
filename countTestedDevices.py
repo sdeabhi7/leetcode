@@ -11,7 +11,7 @@ Otherwise, move to the next device without performing any test.
 Return an integer denoting the number of devices that will be tested after performing the test operations in order.
 
 Example 1:
-Input: batteryPercentages = [1,1,2,1,3]
+Input: batteryPercentages = [1,1,2,1,3
 Output: 3
 Explanation: Performing the test operations in order starting from device 0:
 At device 0, batteryPercentages[0] > 0, so there is now 1 tested device, and batteryPercentages becomes [1,0,1,0,2].

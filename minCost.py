@@ -6,7 +6,7 @@ Alice wants the rope to be colorful. She does not want two consecutive balloons 
 Return the minimum time Bob needs to make the rope colorful.
 
 Example 1:
-Input: colors = "abaac", neededTime = [1,2,3,4,5
+Input: colors = "abaac", neededTime = [1,2,3,4,5]
 Output: 3
 Explanation: In the above image, 'a' is blue, 'b' is red, and 'c' is green.
 Bob can remove the blue balloon at index 2. This takes 3 seconds.

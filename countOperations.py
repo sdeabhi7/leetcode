@@ -25,7 +25,7 @@ Now num1 = 0 and num2 = 10. Since num1 == 0, we are done.
 So the total number of operations required is 1.
  
 Constraints:
-0 <= num1, num2 <= 10**5
+0 <= num1, num2 <= 10**
 '''
 
 def countOperations(num1, num2):

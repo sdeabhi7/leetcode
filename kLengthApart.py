@@ -27,4 +27,4 @@ def kLengthApart(nums, k):
             return False
     return True
 
-print(kLengthApart([1,0,0,1,0,1], 2))
+print(kLengthApart([1,0,0,0,1,0,0,1], 2))

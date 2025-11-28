@@ -12,7 +12,7 @@ Subtract 1 from 1.
 Add 1 to 2.
 Subtract 1 from 4.
 
-Example 2:
+Example 2
 Input: nums = [3,6,9]
 
 Output: 0

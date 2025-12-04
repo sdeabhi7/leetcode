@@ -20,7 +20,7 @@ Explanation:The sum is 8, which is already divisible by 4. Hence, no operations 
 Example 3:
 Input: nums = [3,2], k = 6
 
-Output: 5
+Output: 
 
 Explanation: Perform 3 operations on nums[0] = 3 and 2 operations on nums[1] = 2. Now, nums = [0, 0].
 The sum is 0, which is divisible by 6.

@@ -26,7 +26,7 @@ Input: nums = [2,4,6,8]
 Output: 3
 Explanation: All partitions result in an even sum difference.
 
-Constraints
+Constraints:
 2 <= n == nums.length <= 100
 1 <= nums[i] <= 100
 '''

@@ -32,4 +32,4 @@ def countTriples(n):
                 y += 2
     return y
 
-print(countTriples(10))
+print(countTriples(5))

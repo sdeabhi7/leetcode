@@ -9,7 +9,7 @@ Input: n = 5
 Output: 2
 Explanation: The square triples are (3,4,5) and (4,3,5).
 
-Example 2:
+Example 2
 
 Input: n = 10
 Output: 4

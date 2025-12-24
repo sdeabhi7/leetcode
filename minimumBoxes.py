@@ -26,14 +26,22 @@ The input is generated such that it's possible to redistribute packs of apples i
 '''
 
 def minimumBoxes(apple, capacity):
-    t = sum(apple)
-    value = sorted(capacity)[::-1]
-    k = 0
-    for i in value:
-        t -= i
-        k += 1
-        if t <= 0:
-            return k
-    return k
-
+    capacity.sort(reverse=True)
+    value = sum(apple)
+    for i in range(len(capacity)):
+        value -= capacity[i]
+        if value <= 0:
+            return i+1
+        
 print(minimumBoxes([1,3,2], [4,3,1,5,2]))
+
+# def minimumBoxes(apple, capacity):
+#     t = sum(apple)
+#     value = sorted(capacity)[::-1]
+#     k = 0
+#     for i in value:
+#         t -= i
+#         k += 1
+#         if t <= 0:
+#             return k
+#     return k

@@ -10,7 +10,7 @@ Return the maximum sum of the happiness values of the selected children you can 
 
 Example 1:
 
-Input: happiness = [1,2,3], k = 
+Input: happiness = [1,2,3], k = 2
 Output: 4
 Explanation: We can pick 2 children in the following way:
 - Pick the child with the happiness value == 3. The happiness value of the remaining children becomes [0,1].

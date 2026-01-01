@@ -31,9 +31,8 @@ digits does not contain any leading 0's.
 '''
 
 def plusOne(digits):
-    temp = int(''.join(str(i) for i in digits))
-    temp += 1
-    k = [int(i) for i in str(temp)]
-    return k
+    value = int(''.join(str(i) for i in digits))
+    value += 1
+    return [int(i) for i in str(value)]
 
 print(plusOne([1,2,3]))

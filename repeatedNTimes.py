@@ -12,7 +12,7 @@ Output: 3
 
 Example 2:
 Input: nums = [2,1,2,5,3,2]
-Output: 
+Output: 2
 
 Example 3:
 Input: nums = [5,1,5,2,5,3,5,4]

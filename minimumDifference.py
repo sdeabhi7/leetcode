@@ -36,3 +36,5 @@ def minimumDifference(nums, k):
     for i in range(0, y - k + 1):
         value = min(value, nums[i + k - 1] - nums[i])
     return value
+
+print(minimumDifference)

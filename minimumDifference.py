@@ -37,4 +37,4 @@ def minimumDifference(nums, k):
         value = min(value, nums[i + k - 1] - nums[i])
     return value
 
-print(minimumDifference)
+print(minimumDifference([90]))

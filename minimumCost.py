@@ -5,7 +5,7 @@ The cost of an array is the value of its first element. For example, the cost of
 
 You need to divide nums into 3 disjoint contiguous subarrays.
 
-Return the minimum possible sum of the cost of these subarray.
+Return the minimum possible sum of the cost of these subarrays.
 
 Example 1:
 Input: nums = [1,2,3,12]

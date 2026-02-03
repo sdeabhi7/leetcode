@@ -8,7 +8,7 @@ You need to divide nums into 3 disjoint contiguous subarrays.
 Return the minimum possible sum of the cost of these subarrays.
 
 Example 1:
-Input: nums = [1,2,3,12
+Input: nums = [1,2,3,12]
 Output: 6
 Explanation: The best possible way to form 3 subarrays is: [1], [2], and [3,12] at a total cost of 1 + 2 + 3 = 6.
 The other possible ways to form 3 subarrays are:

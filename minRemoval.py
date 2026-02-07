@@ -35,7 +35,7 @@ def minRemoval(nums, k):
     n = len(nums)
     value = 0
     nums.sort()
-    for i in range(n):
+    for i in range():
         while nums[i] > nums[j] * k:
             j += 1
         value = max(value, i-j+1)

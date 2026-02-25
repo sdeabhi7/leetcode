@@ -25,7 +25,7 @@ Output: 0
 Explanation: Since nums is already balanced as 6 <= 4 * 2, no elements need to be removed.
  
 Constraints:
-1 <= nums.length <= 10**
+1 <= nums.length <= 10**5
 1 <= nums[i] <= 10**9
 1 <= k <= 10**5
 '''

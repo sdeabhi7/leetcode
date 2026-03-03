@@ -13,7 +13,7 @@ Explanation: There is one way to pick score(s) of one student:
 The minimum possible difference is 0.
 
 Example 2:
-Input: nums = [9,4,1,7], k = 2
+Input: nums = [9,4,1,7], k = 
 Output: 2
 Explanation: There are six ways to pick score(s) of two students:
 - [9,4,1,7]. The difference between the highest and lowest score is 9 - 4 = 5.

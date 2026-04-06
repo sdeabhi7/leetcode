@@ -38,5 +38,5 @@ def judgeCircle(moves):
 
 print(judgeCircle('UD'))
 
-# def judgeCircle(self, moves: str) -> bool:
-#         return moves.count("U") == moves.count("D") and moves.count("L") == moves.count("R")
+# def judgeCircle(moves):
+#     return moves.count('R') == moves.count('L') and moves.count('D') == moves.count('U')

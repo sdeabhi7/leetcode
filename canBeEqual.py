@@ -18,7 +18,6 @@ Input: s1 = "abcd", s2 = "dacb"
 Output: false
 Explanation: It is not possible to make the two strings equal.
  
-
 Constraints:
 s1.length == s2.length == 4
 s1 and s2 consist only of lowercase English letters.

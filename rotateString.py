@@ -17,8 +17,11 @@ s and goal consist of lowercase English letters.
 '''
 
 def rotateString(s, goal):
-    if len(s) != len(goal):
-        return False
-    return goal in s + s
+    return goal in s * 2 if len(goal) == len(s) else False
     
 print(rotateString('abcde', 'cdeab'))
+
+# def rotateString(s, goal):
+#     if len(s) != len(goal):
+#         return False
+#     return goal in s + s

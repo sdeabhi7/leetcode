@@ -38,3 +38,18 @@ def check(nums):
                 return (temp + nums) == sorted(k)
 
 print(check([3,4,5,1,2]))
+
+# def check(nums):
+#     sorted_nums = sorted(nums)
+#     if nums != sorted_nums:
+#         n = len(nums)
+#         temp = []
+#         k = []
+#         for i in range(n-1):
+#             if nums[i] > nums[i+1]:
+#                 temp = nums[i+1:]
+#                 k = nums[0:i+1]
+#                 break
+#         return sorted_nums == temp + k 
+#     else:
+#         return True

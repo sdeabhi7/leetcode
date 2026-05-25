@@ -7,7 +7,7 @@ Note: An array A rotated by x positions results in an array B of the same length
 Example 1:
 Input: nums = [3,4,5,1,2]
 Output: true
-Explanation: [1,2,3,4,5] is the original sorted array.
+Explanation: [1,2,3,4,5] is the original sorted array. 
 You can rotate the array by x = 3 positions to begin on the element of value 3: [3,4,5,1,2].
 
 Example 2:
@@ -25,6 +25,8 @@ Constraints:
 
 1 <= nums.length <= 100
 1 <= nums[i] <= 100'''
+
+#   author: sdeabhi
 
 def check(nums):
     k = nums.copy()

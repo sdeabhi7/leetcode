@@ -24,6 +24,8 @@ Constraints:
 1 <= nums[i] <= 10**5
 '''
 
+#   author: sdeabhi
+
 def leftRightDifference(nums):
     n = len(nums)
     l_sum = [0]

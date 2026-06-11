@@ -30,6 +30,8 @@ Constraints:
 pivot equals to an element of nums.
 '''
 
+#   author: sdeabhi
+
 def pivotArray(nums, pivot):
     l = []
     v = []

@@ -2,8 +2,6 @@
 
 
 
-
-
 def gcdOfOddEvenSums(n):
     return n
 

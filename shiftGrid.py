@@ -2,8 +2,6 @@
 
 
 
-
-
 def shiftGrid(grid, k):
     value = []
     r = len(grid[0])

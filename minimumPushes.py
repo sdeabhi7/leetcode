@@ -2,6 +2,7 @@
 
 
 
+
 def minimumPushes(word):
     n = len(word)
     if n < 9:

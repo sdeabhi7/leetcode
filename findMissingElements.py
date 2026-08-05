@@ -12,3 +12,13 @@ def findMissingElements(nums):
     return value
 
 print(findMissingElements([1,4,2,5]))
+
+
+# def findMissingElements(nums):
+#     value = []
+#     nums.sort()
+#     l, r = nums[0], nums[-1]
+#     for i in range(l, r):
+#         if i not in nums:
+#             value.append(i)
+#     return value

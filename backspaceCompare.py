@@ -1,3 +1,7 @@
+#   author: sdeabhi
+
+
+
 def backspaceCompare(s, t):
     k, y = [], []
     for i in s:

@@ -2,6 +2,7 @@
 
 
 
+
 def findMissingElements(nums):
     value = []
     min_n = min(nums)

@@ -4,7 +4,8 @@
 
 def checkDivisibility(n):
     nums = str(n)
-    s, p = 0, 1
+    s = 0
+    p = 1
     for i in nums:
         s += int(i)
         p *= int(i)

@@ -2,8 +2,6 @@
 
 
 
-
-
 def uniformArray(nums1):
     return True
 

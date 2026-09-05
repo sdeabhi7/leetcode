@@ -3,6 +3,7 @@
 
 
 
+
 def shortestBeautifulSubstring(s, k):
     if s.count('1') >= k:
         value, t = [], float('inf')

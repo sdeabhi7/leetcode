@@ -4,6 +4,7 @@
 
 def countCommas(n):
     return max(n-999, 0)
+
 print(countCommas(1002))
 
 # def countCommas(n):

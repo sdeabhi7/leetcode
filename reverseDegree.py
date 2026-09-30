@@ -9,6 +9,7 @@ def reverseDegree(s):
     t = len(s)
     for i in range(t):
         k += (r.find(s[i]) + 1) * (i+1)
+        
     return k
 
 print(reverseDegree('abc'))

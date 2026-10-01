@@ -2,6 +2,7 @@
 
 
 
+
 def reverseDegree(s):
     y = 'abcdefghijklmnopqrstuvwxyz'
     r = y[::-1]

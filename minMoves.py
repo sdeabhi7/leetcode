@@ -4,7 +4,6 @@
 
 def minMoves(nums):
     max_value, value = max(nums), 0
-    t
     for i in nums:
         value += max_value - i
     return value

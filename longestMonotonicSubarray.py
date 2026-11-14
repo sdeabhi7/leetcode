@@ -3,7 +3,7 @@
 
 
 def longestMonotonicSubarray(nums):
-    incre, m_incre, decre, m_decre = 1, 1, 1, 1
+    incre, m_incre, decre,  m_decre = 1, 1, 1, 1
     n = len(nums)
     for i in range(1, n):
         if nums[i-1] < nums[i]:

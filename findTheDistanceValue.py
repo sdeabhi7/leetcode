@@ -2,6 +2,7 @@
 
 
 
+
 def findTheDistanceValue(arr1, arr2, d):
     value = 0
     for i in arr1:

@@ -8,6 +8,7 @@ def longestMonotonicSubarray(nums):
     for i in range(1, n):
         if nums[i-1] < nums[i]:
             incre += 1
+            
             decre = 1
         elif nums[i-1] > nums[i]:
             decre += 1
